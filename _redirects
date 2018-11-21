@@ -1,1 +1,2 @@
 ^/rkanson.netlify.com/* https://www.rkanson.com/:splat 301!
+^/rkanson.com/* https://www.rkanson.com/:splat 301!
