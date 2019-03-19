@@ -1,39 +1,35 @@
 <!DOCTYPE html>
 <html lang="en">
+
 	<head>
 		<meta charset="UTF-8" />
 		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
 		<meta http-equiv="X-UA-Compatible" content="ie=edge" />
 		<title>Richard Kanson | Web Developer</title>
-		<link
-			rel="shortcut icon"
-			href="/src/img/favicon.ico"
-			type="image/x-icon"
-		/>
-		<link
-			rel="stylesheet"
-			href="https://fonts.googleapis.com/css?family=Montserrat:700"
-		/>
-		<link
-			rel="stylesheet"
-			href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css"
-		/>
-		<link
-			rel="stylesheet"
-			href="https://cdnjs.cloudflare.com/ajax/libs/tailwindcss/0.7.2/tailwind.min.css"
-		/>
+		<link rel="shortcut icon" href="/src/img/favicon.ico" type="image/x-icon" />
+		<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Montserrat:700" />
+		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css" />
+		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/tailwindcss/0.7.2/tailwind.min.css" />
+		<script defer src="https://use.fontawesome.com/releases/v5.7.2/js/brands.js"
+			integrity="sha384-zJ8/qgGmKwL+kr/xmGA6s1oXK63ah5/1rHuILmZ44sO2Bbq1V3p3eRTkuGcivyhD"
+			crossorigin="anonymous"></script>
+		<script defer src="https://use.fontawesome.com/releases/v5.7.2/js/fontawesome.js"
+			integrity="sha384-xl26xwG2NVtJDw2/96Lmg09++ZjrXPc89j0j7JHjLOdSwHDHPHiucUjfllW0Ywrq"
+			crossorigin="anonymous"></script>
 	</head>
 
 	<style>
 		* {
 			font-family: 'Montserrat', sans-serif;
 		}
+
+		.transition {
+			transition: all 0.4s ease-in-out;
+		}
 	</style>
 
 	<body>
-		<section
-			class="flex flex-col justify-center items-center w-screen h-screen bg-black"
-		>
+		<section class="flex flex-col justify-center items-center w-screen h-screen bg-black">
 			<img class="w-64 mb-4" src="/src/img/logo.svg" alt="Logo" />
 			<h1 class="font-bold text-5xl text-white antialiased">
 				Richard Kanson
@@ -41,6 +37,15 @@
 			<h2 class="font-bold text-3xl text-white antialiased">
 				Web Developer
 			</h2>
+			<div class="flex items-center">
+				<a class="m-4 text-white hover:text-grey-dark transition" href="https://github.com/rkanson">
+					<i class="fab fa-github-square fa-3x"></i>
+				</a>
+				<a class="m-4 text-white hover:text-grey-dark transition" href="https://twitter.com/rkanson" target="_blank">
+					<i class="fab fa-twitter-square fa-3x"></i>
+				</a>
+			</div>
 		</section>
 	</body>
+
 </html>
