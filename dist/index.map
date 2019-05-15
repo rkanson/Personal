@@ -1,0 +1,1 @@
+{"version":3,"sources":["src/js/index.js"],"names":["console","log","classes","transition"],"mappings":";;;AAEA,aAFA,IAAA,EAAA,EAAA,QAAA,oBAEA,SAAA,EAAA,GAAA,OAAA,GAAA,EAAA,WAAA,EAAA,CAAA,QAAA,GAAAA,QAAQC,IAAIC,EAAQC,QAAAA","file":"index.map","sourceRoot":"../src/js","sourcesContent":["import classes from '../css/main.css';\n\nconsole.log(classes.transition);\n"]}
