@@ -296,6 +296,7 @@ module.exports = {
 			widest: '0.1em',
 		},
 		lineHeight: {
+			mini: '0.5',
 			none: '1',
 			tight: '1.25',
 			snug: '1.375',

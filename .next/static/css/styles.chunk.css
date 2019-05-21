@@ -1,4 +1,4 @@
-@import url(https://fonts.googleapis.com/css?family=Montserrat:700?font-display=swap);
+@import url(https://fonts.googleapis.com/css?family=Montserrat:400,700?font-display=swap);
 /*! normalize.css v8.0.1 | MIT License | github.com/necolas/normalize.css */
 
 /* Document
@@ -3762,6 +3762,10 @@ video {
 
 .h-screen{
   height: 100vh;
+}
+
+.leading-mini{
+  line-height: 0.5;
 }
 
 .leading-none{
@@ -7556,7 +7560,19 @@ video {
   font-family: 'Montserrat', sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+}
+
+body {
+  margin: 0;
+}
+
+.transition {
   transition: all 0.4s ease-in-out;
+}
+
+.offcanvas {
+  -webkit-transform: translateY(100%);
+          transform: translateY(100%);
 }
 
 @media (min-width: 640px){
@@ -10694,6 +10710,10 @@ video {
 
   .sm\:h-screen{
     height: 100vh;
+  }
+
+  .sm\:leading-mini{
+    line-height: 0.5;
   }
 
   .sm\:leading-none{
@@ -17622,6 +17642,10 @@ video {
     height: 100vh;
   }
 
+  .md\:leading-mini{
+    line-height: 0.5;
+  }
+
   .md\:leading-none{
     line-height: 1;
   }
@@ -24548,6 +24572,10 @@ video {
     height: 100vh;
   }
 
+  .lg\:leading-mini{
+    line-height: 0.5;
+  }
+
   .lg\:leading-none{
     line-height: 1;
   }
@@ -31472,6 +31500,10 @@ video {
 
   .xl\:h-screen{
     height: 100vh;
+  }
+
+  .xl\:leading-mini{
+    line-height: 0.5;
   }
 
   .xl\:leading-none{
