@@ -21,7 +21,7 @@ function Home() {
 				/>
 				<link
 					rel="shortcut icon"
-					href="favicon.ico"
+					href="/static/img/favicon.ico"
 					type="image/x-icon"
 				/>
 			</Head>

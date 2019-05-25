@@ -7,7 +7,7 @@ const ExternalLinks = () => (
 			aria-label="GitHub"
 		>
 			<svg
-				className="text-white fill-current hover:text-gray-700"
+				className="text-white fill-current hover:text-gray-600"
 				width="24"
 				height="24"
 				xmlns="http://www.w3.org/2000/svg"

@@ -4,16 +4,6 @@
 @tailwind components;
 @tailwind utilities;
 
-* {
-	font-family: 'Montserrat', sans-serif;
-	-webkit-font-smoothing: antialiased;
-	-moz-osx-font-smoothing: grayscale;
-}
-
-body {
-	margin: 0;
-}
-
 .transition {
 	transition: all 0.4s ease-in-out;
 }

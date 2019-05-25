@@ -2134,7 +2134,7 @@ function (_Document) {
         },
         __self: this
       }), react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement("body", {
-        className: "app",
+        className: "app antialiased font-heading m-0",
         __source: {
           fileName: _jsxFileName,
           lineNumber: 8
