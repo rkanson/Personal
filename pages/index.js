@@ -24,6 +24,11 @@ function Home() {
 					href="/static/img/favicon.ico"
 					type="image/x-icon"
 				/>
+				<link
+					rel="apple-touch-icon"
+					sizes="180x180"
+					href="/static/img/apple-touch-icon.png"
+				/>
 			</Head>
 			<section className="flex flex-col justify-center items-center w-screen h-screen bg-gray-800">
 				<SVGLogo />
