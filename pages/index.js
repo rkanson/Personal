@@ -28,7 +28,7 @@ function Home() {
 			<section className="flex flex-col justify-center items-center w-screen h-screen bg-gray-800">
 				<SVGLogo />
 				<div className="my-6 flex flex-col items-center text-center">
-					<h1 className="font-bold leading-none text-5xl text-white">
+					<h1 className="font-bold leading-none text-4xl md:text-5xl text-white">
 						Richard Kanson
 					</h1>
 					<h2 className="font-bold leading-none text-3xl text-white">
