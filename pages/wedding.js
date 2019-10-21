@@ -1,12 +1,8 @@
 function Wedding() {
-	return (
-		<>
-			<script>
-				location.href =
-				'https://www.weddingwire.us/website/richard-kanson-and-erika-longfield';
-			</script>
-		</>
-	);
+	location.href =
+		'https://www.weddingwire.us/website/richard-kanson-and-erika-longfield';
+
+	return <p>Redirecting!</p>;
 }
 
 export default Wedding;
