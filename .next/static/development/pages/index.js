@@ -33,7 +33,7 @@ var ExternalLinks = function ExternalLinks() {
     },
     __self: this
   }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("svg", {
-    className: "text-white fill-current hover:text-gray-600",
+    className: "text-white fill-current hover:text-gray-600 transition",
     width: "24",
     height: "24",
     xmlns: "http://www.w3.org/2000/svg",
@@ -60,20 +60,20 @@ var ExternalLinks = function ExternalLinks() {
     },
     __self: this
   }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("svg", {
-    className: "text-white fill-current ml-4 hover:text-gray-600",
+    className: "text-white fill-current ml-4 hover:text-gray-600 transition",
     width: "24",
     height: "24",
     xmlns: "http://www.w3.org/2000/svg",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 22
+      lineNumber: 24
     },
     __self: this
   }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("path", {
     d: "M23.954 4.569a10 10 0 0 1-2.825.775 4.958 4.958 0 0 0 2.163-2.723c-.951.555-2.005.959-3.127 1.184a4.92 4.92 0 0 0-8.384 4.482C7.691 8.094 4.066 6.13 1.64 3.161a4.822 4.822 0 0 0-.666 2.475c0 1.71.87 3.213 2.188 4.096a4.904 4.904 0 0 1-2.228-.616v.061a4.923 4.923 0 0 0 3.946 4.827 4.996 4.996 0 0 1-2.212.085 4.937 4.937 0 0 0 4.604 3.417 9.868 9.868 0 0 1-6.102 2.105c-.39 0-.779-.023-1.17-.067a13.995 13.995 0 0 0 7.557 2.209c9.054 0 13.999-7.496 13.999-13.986 0-.209 0-.42-.015-.63a9.936 9.936 0 0 0 2.46-2.548l-.047-.02z",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 28
+      lineNumber: 30
     },
     __self: this
   }))));
@@ -162,7 +162,7 @@ function PortfolioButton() {
     document.querySelector('#portfolio').removeAttribute('style');
   });
   return react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement(react__WEBPACK_IMPORTED_MODULE_1___default.a.Fragment, null, react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("button", {
-    className: "bg-white text-grey-800 mx-1 py-2 px-4 rounded-t font-bold hover:bg-gray-600 hover:text-white",
+    className: "bg-white text-grey-800 mx-1 py-2 px-4 rounded-t font-bold hover:bg-gray-600 hover:text-white transition",
     onClick: togglePortfolio,
     __source: {
       fileName: _jsxFileName,
@@ -186,7 +186,7 @@ function PortfolioButton() {
     },
     __self: this
   }, react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("button", {
-    className: "absolute right-0 top-0 mr-4 mt-4 text-2xl font-bold leading-mini hover:cursor-pointer hover:text-gray-600",
+    className: "absolute right-0 top-0 mr-4 mt-4 text-2xl font-bold leading-mini hover:cursor-pointer hover:text-gray-600 transition",
     onClick: togglePortfolio,
     __source: {
       fileName: _jsxFileName,
@@ -262,7 +262,7 @@ function ResumeButton() {
     document.querySelector('#resume').removeAttribute('style');
   });
   return react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement(react__WEBPACK_IMPORTED_MODULE_1___default.a.Fragment, null, react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("button", {
-    className: "bg-white text-grey-800 mx-1 py-2 px-4 rounded-t font-bold hover:bg-gray-600 hover:text-white",
+    className: "bg-white text-grey-800 mx-1 py-2 px-4 rounded-t font-bold hover:bg-gray-600 hover:text-white transition",
     onClick: toggleResume,
     __source: {
       fileName: _jsxFileName,
@@ -286,7 +286,7 @@ function ResumeButton() {
     },
     __self: this
   }, react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("button", {
-    className: "absolute right-0 top-0 mr-4 mt-4 text-2xl font-bold leading-mini hover:cursor-pointer hover:text-gray-600",
+    className: "absolute right-0 top-0 mr-4 mt-4 text-2xl font-bold leading-mini hover:cursor-pointer hover:text-gray-600 transition",
     onClick: toggleResume,
     __source: {
       fileName: _jsxFileName,
@@ -4104,12 +4104,12 @@ exports.default = withSideEffect;
 
 /***/ "./node_modules/react/index.js":
 /*!*******************************************************************************************!*\
-  !*** delegated ./node_modules/react/index.js from dll-reference dll_6dc2816e14fab51b8269 ***!
+  !*** delegated ./node_modules/react/index.js from dll-reference dll_03a060600fe0e7d6fe3e ***!
   \*******************************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = (__webpack_require__(/*! dll-reference dll_6dc2816e14fab51b8269 */ "dll-reference dll_6dc2816e14fab51b8269"))("./node_modules/react/index.js");
+module.exports = (__webpack_require__(/*! dll-reference dll_03a060600fe0e7d6fe3e */ "dll-reference dll_03a060600fe0e7d6fe3e"))("./node_modules/react/index.js");
 
 /***/ }),
 
@@ -4147,7 +4147,7 @@ function Home() {
     },
     __self: this
   }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("meta", {
-    charset: "UTF-8",
+    charSet: "UTF-8",
     __source: {
       fileName: _jsxFileName,
       lineNumber: 11
@@ -4241,10 +4241,19 @@ function Home() {
       lineNumber: 43
     },
     __self: this
-  })), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_components_FunctionButtons__WEBPACK_IMPORTED_MODULE_5__["default"], {
+  }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("a", {
+    className: "bg-white text-grey-800 mx-1 py-2 px-4 mt-8 rounded font-bold hover:bg-gray-600 hover:text-white transition",
+    href: "https://www.weddingwire.us/website/richard-kanson-and-erika-longfield",
+    rel: "noreferrer noopener",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 45
+      lineNumber: 44
+    },
+    __self: this
+  }, "Looking for the Wedding page?")), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_components_FunctionButtons__WEBPACK_IMPORTED_MODULE_5__["default"], {
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 52
     },
     __self: this
   }));
@@ -4266,14 +4275,14 @@ module.exports = __webpack_require__(/*! next-client-pages-loader?page=%2F&absol
 
 /***/ }),
 
-/***/ "dll-reference dll_6dc2816e14fab51b8269":
+/***/ "dll-reference dll_03a060600fe0e7d6fe3e":
 /*!*******************************************!*\
-  !*** external "dll_6dc2816e14fab51b8269" ***!
+  !*** external "dll_03a060600fe0e7d6fe3e" ***!
   \*******************************************/
 /*! no static exports found */
 /***/ (function(module, exports) {
 
-module.exports = dll_6dc2816e14fab51b8269;
+module.exports = dll_03a060600fe0e7d6fe3e;
 
 /***/ })
 

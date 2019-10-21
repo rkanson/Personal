@@ -26,7 +26,7 @@ function ResumeButton() {
 	return (
 		<>
 			<button
-				className="bg-white text-grey-800 mx-1 py-2 px-4 rounded-t font-bold hover:bg-gray-600 hover:text-white"
+				className="bg-white text-grey-800 mx-1 py-2 px-4 rounded-t font-bold hover:bg-gray-600 hover:text-white transition"
 				onClick={toggleResume}
 			>
 				Resume
@@ -38,7 +38,7 @@ function ResumeButton() {
 			>
 				<div className="relative p-4 md:p-8">
 					<button
-						className="absolute right-0 top-0 mr-4 mt-4 text-2xl font-bold leading-mini hover:cursor-pointer hover:text-gray-600"
+						className="absolute right-0 top-0 mr-4 mt-4 text-2xl font-bold leading-mini hover:cursor-pointer hover:text-gray-600 transition"
 						onClick={toggleResume}
 					>
 						&times;

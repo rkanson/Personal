@@ -8,7 +8,7 @@ function Home() {
 	return (
 		<>
 			<Head>
-				<meta charset="UTF-8" />
+				<meta charSet="UTF-8" />
 				<meta
 					name="viewport"
 					content="width=device-width, initial-scale=1.0"
@@ -41,6 +41,13 @@ function Home() {
 					</h2>
 				</div>
 				<ExternalLinks />
+				<a
+					className="bg-white text-grey-800 mx-1 py-2 px-4 mt-8 rounded font-bold hover:bg-gray-600 hover:text-white transition"
+					href="https://www.weddingwire.us/website/richard-kanson-and-erika-longfield"
+					rel="noreferrer noopener"
+				>
+					Looking for the Wedding page?
+				</a>
 			</section>
 			<FunctionButtons />
 		</>
