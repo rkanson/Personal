@@ -7,8 +7,9 @@ function PortfolioButton() {
 
   const [languages] = useState([
     "HTML",
-    "CSS (SCSS)",
+    "CSS (PostCSS, SCSS)",
     "JS (Vanilla, Vue, React, jQuery)",
+    "Ruby (Rails)",
     "Python (Flask)",
     "PHP (Laravel)"
   ]);
