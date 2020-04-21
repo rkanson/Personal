@@ -1,11 +1,14 @@
-@import "https://fonts.googleapis.com/css?family=Montserrat:400,700?font-display=swap";
-
+/* purgecss start ignore */
 @tailwind base;
 @tailwind components;
+/* purgecss end ignore */
+
 @tailwind utilities;
 
+@import "https://fonts.googleapis.com/css?family=Montserrat:400,700?font-display=swap";
+
 body {
-  @apply antialiased font-mont;
+  @apply m-0 antialiased font-mont;
 }
 
 .offcanvas {

@@ -5,8 +5,6 @@ module.exports = {
         px: "1px",
         "2px": "2px",
       },
-      colors: {},
-      fontSize: {},
       fontFamily: {
         mont: ["Montserrat", "sans-serif"],
         ant: ["Anton", "sans-serif"],
@@ -14,7 +12,6 @@ module.exports = {
       inset: {
         "1/2": "50%",
       },
-      minHeight: {},
       screens: {
         md: "640px",
         lg: "1024px",

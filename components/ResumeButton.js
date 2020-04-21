@@ -26,37 +26,37 @@ function ResumeButton() {
   return (
     <>
       <button
-        className="bg-white text-grey-800 mx-1 py-2 px-4 rounded-t font-bold hover:bg-gray-600 hover:text-white transition-all duration-300"
+        className="px-4 py-2 mx-1 font-bold transition-all duration-300 bg-white rounded-t text-grey-800 hover:bg-gray-600 hover:text-white"
         onClick={toggleResume}
       >
         Resume
       </button>
       <div
         id="resume"
-        className="offcanvas transition-all duration-300 fixed inset-x-0 bottom-0 rounded-t bg-white mx-4"
+        className="fixed inset-x-0 bottom-0 mx-4 transition-all duration-300 bg-white rounded-t offcanvas"
         style={dispNone}
       >
         <div className="relative p-4 md:p-8">
           <button
-            className="absolute right-0 top-0 mr-4 mt-4 text-2xl font-bold leading-mini hover:cursor-pointer hover:text-gray-600 transition-all duration-300"
+            className="absolute top-0 right-0 mt-4 mr-4 text-2xl font-bold transition-all duration-300 leading-mini hover:cursor-pointer hover:text-gray-600"
             onClick={toggleResume}
           >
             &times;
           </button>
-          <p className="text-2xl font-bold leading-none border-b-2 pb-2 mr-2">
+          <p className="pb-2 mr-2 text-2xl font-bold leading-none border-b-2">
             Experience
           </p>
-          <ul className="my-4 ml-2 list-disc ml-6">
+          <ul className="my-4 ml-2 ml-6 list-disc">
             {experience.map((job, index) => (
               <li className="text-sm text-gray-800" key={index}>
                 {job}
               </li>
             ))}
           </ul>
-          <p className="text-2xl font-bold leading-none border-b-2 pb-2 mr-2">
+          <p className="pb-2 mr-2 text-2xl font-bold leading-none border-b-2">
             Education
           </p>
-          <ul className="my-4 ml-2 list-disc ml-6">
+          <ul className="my-4 ml-2 ml-6 list-disc">
             {education.map((school, index) => (
               <li className="text-sm text-gray-800" key={index}>
                 {school}
