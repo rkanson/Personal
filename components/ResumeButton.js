@@ -2,17 +2,17 @@ import { useState, useEffect } from "react";
 
 function ResumeButton() {
   const dispNone = {
-    display: "none"
+    display: "none",
   };
 
   const [experience] = useState([
     "NextLevel Web Strategies - Cherry Hill, NJ",
-    "Lead Web Developer, Content Import Specialist"
+    "Lead Web Developer, Content Import Specialist",
   ]);
 
   const [education] = useState([
     "Monmouth University - West Long Branch",
-    "B.S in Computer Science w/ Concentration in Applied Programming"
+    "B.S in Computer Science w/ Concentration in Applied Programming",
   ]);
 
   function toggleResume() {
@@ -26,19 +26,19 @@ function ResumeButton() {
   return (
     <>
       <button
-        className="bg-white text-grey-800 mx-1 py-2 px-4 rounded-t font-bold hover:bg-gray-600 hover:text-white transition"
+        className="bg-white text-grey-800 mx-1 py-2 px-4 rounded-t font-bold hover:bg-gray-600 hover:text-white transition-all duration-300"
         onClick={toggleResume}
       >
         Resume
       </button>
       <div
         id="resume"
-        className="offcanvas transition fixed inset-x-0 bottom-0 rounded-t bg-white mx-4"
+        className="offcanvas transition-all duration-300 fixed inset-x-0 bottom-0 rounded-t bg-white mx-4"
         style={dispNone}
       >
         <div className="relative p-4 md:p-8">
           <button
-            className="absolute right-0 top-0 mr-4 mt-4 text-2xl font-bold leading-mini hover:cursor-pointer hover:text-gray-600 transition"
+            className="absolute right-0 top-0 mr-4 mt-4 text-2xl font-bold leading-mini hover:cursor-pointer hover:text-gray-600 transition-all duration-300"
             onClick={toggleResume}
           >
             &times;

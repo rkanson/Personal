@@ -4,10 +4,10 @@
 @tailwind components;
 @tailwind utilities;
 
-.transition {
-  transition: all 0.4s ease-in-out;
+body {
+  @apply antialiased font-mont;
 }
 
 .offcanvas {
-  transform: translateY(100%);
+  @apply transform translate-y-full;
 }

@@ -2,7 +2,7 @@ import { useState, useEffect } from "react";
 
 function PortfolioButton() {
   const dispNone = {
-    display: "none"
+    display: "none",
   };
 
   const [languages] = useState([
@@ -11,7 +11,7 @@ function PortfolioButton() {
     "JS (Vanilla, Vue, React, jQuery)",
     "Ruby (Rails)",
     "Python (Flask)",
-    "PHP (Laravel)"
+    "PHP (Laravel)",
   ]);
 
   function togglePortfolio() {
@@ -25,19 +25,19 @@ function PortfolioButton() {
   return (
     <>
       <button
-        className="bg-white text-grey-800 mx-1 py-2 px-4 rounded-t font-bold hover:bg-gray-600 hover:text-white transition"
+        className="bg-white text-grey-800 mx-1 py-2 px-4 rounded-t font-bold hover:bg-gray-600 hover:text-white transition-all duration-300"
         onClick={togglePortfolio}
       >
         Portfolio
       </button>
       <div
         id="portfolio"
-        className="offcanvas transition fixed inset-x-0 bottom-0 rounded-t bg-white mx-4"
+        className="offcanvas transition-all duration-300 fixed inset-x-0 bottom-0 rounded-t bg-white mx-4"
         style={dispNone}
       >
         <div className="relative p-4 md:p-8">
           <button
-            className="absolute right-0 top-0 mr-4 mt-4 text-2xl font-bold leading-mini hover:cursor-pointer hover:text-gray-600 transition"
+            className="absolute right-0 top-0 mr-4 mt-4 text-2xl font-bold leading-mini hover:cursor-pointer hover:text-gray-600 transition-all duration-300"
             onClick={togglePortfolio}
           >
             &times;

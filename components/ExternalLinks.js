@@ -7,7 +7,7 @@ const ExternalLinks = () => (
       aria-label="GitHub"
     >
       <svg
-        className="text-white fill-current hover:text-gray-600 transition"
+        className="text-white fill-current hover:text-gray-600 transition-all duration-300"
         width="24"
         height="24"
         xmlns="http://www.w3.org/2000/svg"
@@ -22,7 +22,7 @@ const ExternalLinks = () => (
       aria-label="Twitter"
     >
       <svg
-        className="text-white fill-current ml-4 hover:text-gray-600 transition"
+        className="text-white fill-current ml-4 hover:text-gray-600 transition-all duration-300"
         width="24"
         height="24"
         xmlns="http://www.w3.org/2000/svg"
