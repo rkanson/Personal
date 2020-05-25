@@ -9,16 +9,16 @@
   },
   "dependencies": {
     "date-fns": "^2.12.0",
-    "next": "9.3.4",
+    "next": "^9.4.2",
     "node-fetch": "^2.6.0",
     "react": "16.13.1",
     "react-dom": "16.13.1",
-    "react-player": "^1.15.3",
-    "react-use": "^14.1.1"
+    "react-player": "^2.1.0",
+    "react-use": "^15.1.0"
   },
   "devDependencies": {
-    "@fullhuman/postcss-purgecss": "^2.1.2",
-    "autoprefixer": "^9.7.6",
-    "tailwindcss": "^1.2.0"
+    "@fullhuman/postcss-purgecss": "^2.2.0",
+    "autoprefixer": "^9.8.0",
+    "tailwindcss": "^1.4.6"
   }
 }
