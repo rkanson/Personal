@@ -37,15 +37,15 @@ function Home() {
           </h2>
         </div>
         <ExternalLinks />
-        <a
+        {/* <a
           className="px-4 py-2 mx-1 mt-8 font-bold transition-all duration-300 bg-white rounded text-grey-800 hover:bg-gray-600 hover:text-white"
           href="https://www.weddingwire.us/website/richard-kanson-and-erika-longfield"
           rel="noreferrer noopener"
         >
           Looking for the Wedding page?
-        </a>
+        </a> */}
       </section>
-      <FunctionButtons />
+      {/* <FunctionButtons /> */}
     </>
   );
 }
