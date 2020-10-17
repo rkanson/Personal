@@ -10,10 +10,10 @@ function Home() {
         <meta charSet="UTF-8" />
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
         <meta httpEquiv="X-UA-Compatible" content="ie=edge" />
-        <title>Richard Kanson | Web Developer</title>
+        <title>Richard Kanson</title>
         <meta
           name="description"
-          content="Richard Kanson is a web developer with experience in multiple tech stacks."
+          content="Richard Kanson"
         />
         <link
           rel="shortcut icon"
@@ -33,7 +33,7 @@ function Home() {
             Richard Kanson
           </h1>
           <h2 className="text-3xl font-bold leading-none text-white">
-            Web Developer
+            Platform Engineer @ Pantheon Systems
           </h2>
         </div>
         <ExternalLinks />
