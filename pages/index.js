@@ -10,10 +10,10 @@ function Home() {
         <meta charSet="UTF-8" />
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
         <meta httpEquiv="X-UA-Compatible" content="ie=edge" />
-        <title>Richard Kanson</title>
+        <title>RJ Kanson</title>
         <meta
           name="description"
-          content="Richard Kanson"
+          content="RJ Kanson"
         />
         <link
           rel="shortcut icon"
@@ -30,10 +30,10 @@ function Home() {
         <SVGLogo />
         <div className="flex flex-col items-center my-6 text-center">
           <h1 className="text-4xl font-bold leading-none text-white md:text-5xl">
-            Richard Kanson
+            RJ Kanson
           </h1>
           <h2 className="text-3xl font-bold leading-none text-white">
-            Platform Engineer @ Pantheon Systems
+            Platform Engineer @ Pantheon
           </h2>
         </div>
         <ExternalLinks />
